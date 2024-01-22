@@ -72,3 +72,41 @@ input[type="submit"]:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+#projects {
+    text-align: center;
+}
+
+.project-template {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.project-template img {
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+.project-info {
+    flex: 1;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9469FA;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #9469FA;
+    border-radius: 5px;
+}
+
+.project-button:hover {
+    background-color: #5a15fb;
+}
