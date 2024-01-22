@@ -87,7 +87,6 @@ input[type="submit"]:hover {
 }
 
 .project-template img {
-    max-width: 150px;
     border-radius: 8px;
 }
 
@@ -100,8 +99,6 @@ input[type="submit"]:hover {
 .project-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #9469FA;
-    color: #fff;
     text-decoration: none;
     border: 1px solid #9469FA;
     border-radius: 5px;
@@ -109,4 +106,5 @@ input[type="submit"]:hover {
 
 .project-button:hover {
     background-color: #5a15fb;
+    color: #ddd;
 }
