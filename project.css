@@ -63,3 +63,11 @@ ul li {
 h3 {
     margin-top: 80px; 
 }
+
+.project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #9469FA;
+    border-radius: 5px;
+}
